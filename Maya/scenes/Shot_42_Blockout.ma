@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Shot_42_Blockout.ma
-//Last modified: Wed, Nov 12, 2025 11:43:22 PM
+//Last modified: Wed, Nov 12, 2025 11:44:05 PM
 //Codeset: 1252
 file -rdi 1 -ns "BedroomProps" -rfn "BedroomPropsRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/Luke/Documents/UVU/WorkDayShortFilmOfficialRepo/Maya//assets/environment/apartmentInterior/BedroomProps.ma";
@@ -21,11 +21,11 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202505300603-a12e894a3d";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "2CC6B904-4978-AFE4-D20C-BCBA525EB9DF";
+fileInfo "UUID" "5C434F74-4285-B6CE-0709-F48DB7DA4778";
 createNode transform -s -n "persp";
 	rename -uid "8C112DBF-48AE-0C10-DA02-6DBE29B995AE";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -36.909730918047067 -84.233497417870893 -502.26044574704076 ;
+	setAttr ".t" -type "double3" 1574.8092446257965 437.74707793734177 -757.5316536534076 ;
 	setAttr ".r" -type "double3" 342.26164726987776 -260.99999999984669 0 ;
 	setAttr ".rp" -type "double3" 0 0 -5.6843418860808015e-14 ;
 	setAttr ".rpt" -type "double3" -3.7977729104232877e-14 -3.2227817697367316e-14 8.4233820945042318e-14 ;
@@ -34,7 +34,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 122.21033604101984;
+	setAttr ".coi" 1835.4718942282777;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
